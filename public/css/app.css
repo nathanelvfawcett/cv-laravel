@@ -1,0 +1,112 @@
+body {
+  background-color: #353333;
+  color: white;
+  font-family: serif;
+  text-align: center;
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+h1{
+  font-family: serif;
+  padding-top: 20px;
+  color: #b2fcff;
+  font-size: 3rem;
+}
+h2{
+  padding-top: 20px;
+  color: #b2fcff;
+  font-size: 2rem;
+}
+h3{
+  padding-top: 10px;
+  color: #b2fcff;
+}
+p{
+  color: #f9f9f9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+table{
+    color: #f9f9f9;
+    border-spacing: 5px;
+    border: 1px;
+    width: 30%;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+th, td{
+      border: 5px;
+}
+td{
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section{
+  padding-bottom: 20px
+}
+
+hr{
+  margin-top: 50px;
+  width: 5%;
+  border-top: 10px dotted #27496d;
+}
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  background-color: #1d1919;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+.nav-item{
+  padding-left: 18px;
+  float: left;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.myImage {
+  width: 200px;
+  border-radius:50%;
+  border: 3px solid #b2fcff;
+}
+.contact_link{
+  display: inline;
+  padding: 0 20px;
+}
+
+
+
+#contact{
+  font-family: serif;
+  text-align: center;
+  background-color: #1d1919;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
