@@ -101,6 +101,11 @@ hr{
   padding: 0 20px;
 }
 
+.elementor-nav-menu--toggle .elementor-menu-toggle.elementor-active+.elementor-nav-menu__container {
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
 
 
 #contact{
